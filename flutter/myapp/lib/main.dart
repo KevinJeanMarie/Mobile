@@ -13,15 +13,15 @@ void main() {
     //MyApp(),
 
     // Exercice 2
-    MyAppExercice2(),
+    //MyAppExercice2(),
 
     // Exercice 3
-    // MyAppExercice3(),
+    //MyAppExercice3(),
 
     // Exercice 4
-    // MyAppExercice4(),
+    //MyAppExercice4(),
 
     // Exercice 5
-    // MyAppExercice5(),
+    MyAppExercice5(),
   );
 }

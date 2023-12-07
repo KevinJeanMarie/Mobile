@@ -17,12 +17,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String currentImage = 'image1.jpg';
+  String currentImage = 'R.jpg';
 
   void changeImage() {
     setState(() {
-      currentImage =
-          (currentImage == 'image1.jpg') ? 'image2.jpg' : 'image1.jpg';
+      currentImage = (currentImage == 'R.jpg') ? 'R2.jpg' : 'R.jpg';
     });
   }
 
@@ -36,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image.asset('assets/$currentImage', width: 200, height: 200),
+            Image.asset('assets/images/$currentImage', width: 200, height: 200),
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: changeImage,
