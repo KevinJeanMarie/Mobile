@@ -16,15 +16,15 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Image et Texte côte à côte'),
+        title: Text("Voiture de sport"),
       ),
       body: Center(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image.asset('assets/your_image.png', width: 100, height: 100),
+            Image.asset('assets/images/R.jpg', width: 300, height: 300),
             SizedBox(width: 20),
-            Text('Votre texte ici'),
+            Text('Voici une superbe Dodge SRT hellcat de couleur rouge !'),
           ],
         ),
       ),
